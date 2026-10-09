@@ -22,6 +22,7 @@ connectDB()
 app.use(express.json());
 app.use(
   cors({
+   "https://resume-builder-frontend-1.netlify.app",
     origin: process.env.CLIENT_URL,
     credentials: true,
   })
