@@ -64,6 +64,7 @@ connectDB()
 const allowedOrigins = [
   "http://localhost:5173",
   "https://resume-builder-frontend-1.netlify.app",
+  "https://resume-builder-frontend-2.netlify.app",
   process.env.CLIENT_URL?.replace(/\/$/, ""),
 ].filter(Boolean);
 
